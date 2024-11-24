@@ -22,7 +22,7 @@ const app = express();
 //   })
 // );
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://the-health-nexus-frontend.onrender.com/',
   credentials: true,  // if you need to include cookies or authentication
 }));
 
