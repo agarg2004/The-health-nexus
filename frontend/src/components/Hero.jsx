@@ -7,12 +7,7 @@ const Hero = ({ title, imageUrl }) => {
         <div className="banner">
           <h1>{title}</h1>
           <p>
-            ZeeCare Medical Institute is a state-of-the-art facility dedicated
-            to providing comprehensive healthcare services with compassion and
-            expertise. Our team of skilled professionals is committed to
-            delivering personalized care tailored to each patient's needs. At
-            ZeeCare, we prioritize your well-being, ensuring a harmonious
-            journey towards optimal health and wellness.
+          <b>The Health Nexus</b> is a comprehensive healthcare platform that simplifies doctor appointments and consultations, reducing waiting times and ensuring a seamless experience. With features like slot rescheduling, real-time doctor availability, video consultations, and secure online health report management, The Health Nexus makes quality medical care accessible and convenient for everyone.
           </p>
         </div>
         <div className="banner">

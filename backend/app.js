@@ -1,6 +1,6 @@
 import express from "express";
 import { dbConnection } from "./database/dbConnection.js";
-import { config } from "dotenv";
+import "dotenv/config";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import fileUpload from "express-fileupload";
@@ -10,15 +10,21 @@ import userRouter from "./router/userRouter.js";
 import appointmentRouter from "./router/appointmentRouter.js";
 
 const app = express();
-config({ path: "./config.env" });
 
-app.use(
-  cors({
-    origin: [process.env.FRONTEND_URL_ONE, process.env.FRONTEND_URL_TWO],
-    method: ["GET", "POST", "DELETE", "PUT"],
-    credentials: true,
-  })
-);
+
+
+
+// app.use(
+//   cors({
+//     origin: [process.env.FRONTEND_URL_ONE, process.env.FRONTEND_URL_TWO],
+//     method: ["GET", "POST", "DELETE", "PUT"],
+//     credentials: true,
+//   })
+// );
+app.use(cors({
+  origin: 'http://localhost:5173',
+  credentials: true,  // if you need to include cookies or authentication
+}));
 
 app.use(cookieParser());
 app.use(express.json());

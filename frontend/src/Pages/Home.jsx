@@ -9,9 +9,9 @@ const Home = () => {
     <>
       <Hero
         title={
-          "Welcome to ZeeCare Medical Institute | Your Trusted Healthcare Provider"
+          "Welcome to the Health Nexus | Your Trusted Healthcare Provider"
         }
-        imageUrl={"/hero.png"}
+        imageUrl={"https://cdnl.iconscout.com/lottie/premium/thumb/doctor-explaining-gesture-8936343-7441632.gif"}
       />
       <Biography imageUrl={"/about.png"} />
       <Departments />

@@ -11,26 +11,12 @@ const Biography = ({imageUrl}) => {
           <p>Biography</p>
           <h3>Who We Are</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            blanditiis sequi aperiam. Debitis fugiat harum ex maxime illo
-            consequatur mollitia voluptatem omnis nihil nesciunt beatae esse
-            ipsam, sapiente totam aspernatur porro ducimus aperiam nisi. Ex
-            magnam voluptatum consectetur reprehenderit fugiat recusandae aut
-            similique illum natus velit, praesentium nostrum nesciunt. Deleniti,
-            nesciunt laboriosam totam iusto!
+          The Health Nexus is an integrated healthcare management and doctor appointment booking portal, designed to provide seamless access to quality medical facilities for everyone. Our platform simplifies the process of booking appointments and consulting with doctors, reducing waiting times and ensuring a smooth experience for users. With a focus on accessibility and convenience, The Health Nexus bridges the gap between patients and healthcare professionals, making good medical care just a click away.
           </p>
-          <p>We are all in 2024!</p>
-          <p>We are working on a MERN STACK PROJECT.</p>
+        
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            assumenda exercitationem accusamus sit repellendus quo optio dolorum
-            corporis corrupti. Quas similique vel minima veniam tenetur
-            obcaecati atque magni suscipit laboriosam! Veniam vitae minus nihil
-            cupiditate natus provident. Ex illum quasi pariatur odit nisi
-            voluptas illo qui ipsum mollitia. Libero, assumenda?
+          This platform offers a range of features to enhance your healthcare journey, including slot rescheduling, real-time doctor availability checks, and the option for online or video consultations with experts. Additionally, users can securely store and manage their health reports online, ensuring easy access whenever needed. Whether it’s for routine check-ups or expert advice, The Health Nexus transforms the way people interact with healthcare, providing a reliable and user-friendly experience.
           </p>
-          <p>Lorem ipsum dolor sit amet!</p>
-          <p>Coding is fun!</p>
         </div>
       </div>
     </>

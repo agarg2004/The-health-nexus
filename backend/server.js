@@ -1,5 +1,8 @@
 import app from "./app.js";
 import cloudinary from "cloudinary";
+import cookieParser from "cookie-parser";
+
+
 
 cloudinary.v2.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
@@ -10,3 +13,5 @@ cloudinary.v2.config({
 app.listen(process.env.PORT, () => {
   console.log(`Server listening at port ${process.env.PORT}`);
 });
+
+

@@ -68,18 +68,19 @@ const Footer = () => {
             <h4>Contact</h4>
             <div>
               <FaPhone />
-              <span>999-999-9999</span>
+              <span>+91 9876543210</span>
             </div>
             <div>
               <MdEmail />
-              <span>zeelab@gmail.com</span>
+              <span>cyberknights@gmail.com</span>
             </div>
             <div>
               <FaLocationArrow />
-              <span>Karachi, Pakistan</span>
+              <span>Patiala, Punjab</span>
             </div>
           </div>
         </div>
+        <p>Made with ❤️ by Anirudh Garg</p>
       </footer>
     </>
   );
