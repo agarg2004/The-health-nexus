@@ -80,7 +80,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p>Made with ❤️ by Anirudh Garg</p>
+        <p>Made with ❤️ Cyber Knights</p>
       </footer>
     </>
   );
