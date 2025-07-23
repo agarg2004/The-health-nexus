@@ -1,5 +1,3 @@
-
-````markdown
 ## 🏥 The Health Nexus - MERN Stack Hospital Management System
 
 **The Health Nexus** is an integrated healthcare management and doctor appointment booking platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a seamless experience for patients to book appointments, consult with doctors (online/video), and manage their medical records.
